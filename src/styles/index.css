@@ -1,4 +1,3 @@
-
 /* 
 
     You can write your own styles here...
@@ -10,3 +9,47 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+#app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.traffic-light {
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+.light {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
+
+.glow {
+    box-shadow: 0px 0px 60px 10px #747DE8;
+}
+
+.stick {
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+    width: 1rem;
+    height: 6rem;
+
+}
